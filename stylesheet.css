@@ -1,0 +1,27 @@
+section blockquote {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+i.fa a {
+    color: aqua;
+}
+
+i.fa.fa-facebook.fa-3x {
+    color: brown;
+}
+
+i.fa.fa-twitter.fa-3x {
+    color: brown;
+}
+
+button{
+    display: inline-block;
+}
+
+div {
+    text-align: center;
+}
