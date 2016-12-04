@@ -1,27 +1,125 @@
-section blockquote {
+body {
+    margin: 0px;
+    background-color: #f0efef;
+}
+
+.main_logo {
+    width: 100%;
+    padding: 20px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 24px;
+    color: white;
+}
+
+/**banner**/
+header {
+    background-image: url(images/header_bg.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header .main_banner_content {
     text-align: center;
+}
+
+button{
+    padding: 10px 40px;
+    font-size: 12px;
+    font-weight: 900;
+    background-color: #f9e42e;
+    border-radius: 5px;
+}
+/**end banner**/
+
+.main_content {
+    margin: 50px;
+    font-family: font-family: 'Open Sans', sans-serif;
+}
+
+.main_content p {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.main_banner_content h1 {
+    font-weight: bolder;
+    color: white;
+}
+
+ul {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+header .main_banner_content {
+    text-align: center;
+}
+
+/**testimonial**/
+.testimonial{
+    display: flex;
+    background-image: url(images/testimonial_bg.jpg);
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    
+}
+.testimonial blockquote {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+    width: 360px;
+    font-weight: 400;
+}
+
+.testimonial blockquote span {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.sign_up {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9e42e;
+    
+}
+.sign_up button{
+    background-color: #033048;
+    color: white;
+    font-weight: 500;
+        
 }
 
 footer {
     text-align: center;
-}
-
-i.fa a {
-    color: aqua;
+    background-color: #121212;
 }
 
 i.fa.fa-facebook.fa-3x {
-    color: brown;
+    color: white;
 }
 
 i.fa.fa-twitter.fa-3x {
-    color: brown;
+    color: white;
 }
 
-button{
-    display: inline-block;
+.footer_logo {
+    height: 50px;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #f9e42e;
 }
 
-div {
-    text-align: center;
+.copyright p {
+    font-size: 9px;
+    font-weight: 600;
+    color: white;
 }
