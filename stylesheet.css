@@ -1,6 +1,11 @@
 body {
     margin: 0px;
     background-color: #f0efef;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    padding: 0px;
+    margin: 0px;
 }
 
 .main_logo {
@@ -38,17 +43,17 @@ button{
 
 .main_content {
     margin: 50px;
-    font-family: font-family: 'Open Sans', sans-serif;
 }
 
 .main_content p {
     font-size: 13px;
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 .main_banner_content h1 {
     font-weight: bolder;
     color: white;
+    margin-bottom: 20px;
 }
 
 ul {
@@ -101,6 +106,7 @@ header .main_banner_content {
 footer {
     text-align: center;
     background-color: #121212;
+    padding: 20px 0px;
 }
 
 i.fa.fa-facebook.fa-3x {
